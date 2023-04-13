@@ -1,0 +1,98 @@
+
+.container-dropdown {
+    padding: 16px;
+    background: rgba(65, 70, 93, 0.4);
+    border-radius: 3px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(65, 70, 93, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container-select-game {
+    width: 26%;
+  }
+  
+  .sword-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sword {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .search {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .title-dropdown {
+    padding: 8;
+    color: #e0e0e0;
+    font-size: 16px;
+    margin-left: 12px;
+  }
+  
+  .accordian-arrow {
+    height: 12px;
+    width: 12px;
+  }
+  
+  .row-filters {
+    display: flex;
+    margin: 0 6rem 0 6rem;
+  }
+  
+  .container-search-width {
+    margin-left: 2%;
+    width: 30%;
+  }
+  
+  .container-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-bag {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .container-item-bag {
+    width: 10%;
+  }
+  
+  .container-price {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  
+  .title-price {
+    font-family: Roboto;
+    sans-serif: undefined;
+    font-size: 11px;
+    color: #ffffff;
+  }
+  
+  .title-all {
+    font-family: Roboto;
+    sans-serif: undefined;
+    font-size: 17px;
+    color: #ffffff;
+  }
+  
+  .accordian-arrow-price {
+    display: flex;
+    height: 12px;
+    width: 12px;
+  }
+  
