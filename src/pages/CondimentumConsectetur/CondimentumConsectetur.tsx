@@ -53,7 +53,6 @@ export const CondimentumConsectetur = () => {
                         <Card />
                         <Card />
                         <Card />
-                        
                     </div>
 
 

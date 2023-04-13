@@ -10,7 +10,6 @@ export const Card = () => {
         <div className="card">
             <div className="container-one">
 
-
                 <div className="container-span-onsale-stock">
                     <span className="title-onsale">ON SALE</span>
                     <div className="container-instock"><span className="title-stock ">In Stock</span></div>
@@ -24,11 +23,7 @@ export const Card = () => {
                     </div>
                 </div>
 
-
             </div>
-
-
-
 
             <div>
                 <img src={IconCard} className="icon-card" />
