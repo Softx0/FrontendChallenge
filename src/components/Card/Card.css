@@ -22,6 +22,13 @@
   justify-content: center;
 }
 
+.container-onsale{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .title-onsale {
   font-family: Roboto;
   sans-serif: undefined;
@@ -29,11 +36,17 @@
   color: #ffffff;
 }
 
+.bullet-color{
+  color: #00ffb7;
+}
+
 .container-instock {
   border-radius: 10%;
-  padding: 0.2rem 0.6rem;
+  margin-top: 10%;
+  padding: 0.1rem 0.6rem;
   border: 2px solid #358870;
   width: auto;
+
 }
 
 .title-stock {
@@ -70,8 +83,8 @@
 }
 
 .icon-card {
-  height: 4rem;
-  width: 4rem;
+  height: 24%;
+  width: 24%;
 }
 
 .container-game {
@@ -88,8 +101,8 @@
   color: #fff;
 }
 .icon-game {
-  height: 2rem;
-  width: 2rem;
+  height: 10%;
+  width: 10%;
 }
 
 .container-amount {

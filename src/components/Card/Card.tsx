@@ -11,8 +11,13 @@ export const Card = () => {
             <div className="container-one">
 
                 <div className="container-span-onsale-stock">
-                    <span className="title-onsale">ON SALE</span>
-                    <div className="container-instock"><span className="title-stock ">In Stock</span></div>
+                    <div className="container-onsale">
+                        <span className="bullet-color">&#8226;</span>
+                        <span className="title-onsale">ON SALE</span>
+                    </div>
+                    <div className="container-instock">
+                        <span className="title-stock ">In Stock</span>
+                    </div>
                 </div>
 
                 <div className="container-number">
