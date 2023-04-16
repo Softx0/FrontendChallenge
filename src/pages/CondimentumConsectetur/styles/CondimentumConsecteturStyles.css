@@ -118,6 +118,7 @@ body {
   align-items: center;
   background-color: #2b2c3b;
   padding: 1% 17% 0.8% 17%;
+  border: 3px solid #303141;
 }
 
 .container-social-media-icons {
@@ -247,14 +248,16 @@ body {
   font-family: Roboto;
 }
 
+.special-container {
+  margin-top: 1.6%;
+}
+
 .container-footer-last-column {
   display: flex;
-  align-items: start;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 4%;
+  flex-direction: row;
 }
 
 .footer-company-logo {
@@ -274,11 +277,25 @@ body {
 }
 
 .start-icon {
-  width: 36%;
+  width: 76%;
 }
 
 .footer-title-reviews {
-  color: #d6d7dd;
-  font-size: 0.9rem;
+  color: #9a9ba4;
+  font-size: 0.8rem;
+  font-weight: 100;
   font-family: Roboto;
+}
+
+.container-all-rights-reserved {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.label-all-rights-reserved {
+  font-family: Roboto;
+  color: #bababf;
+  font-size: 0.75rem;
 }

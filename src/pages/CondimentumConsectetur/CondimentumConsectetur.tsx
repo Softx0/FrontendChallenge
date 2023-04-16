@@ -150,7 +150,7 @@ export const CondimentumConsectetur = () => {
                             <span className='generic-text-footer footer-email'>support@chicksgold.com</span>
                         </div>
 
-                        <div className="container-footer-columns-list">
+                        <div className="container-footer-columns-list special-container">
                             <span className='generic-text title-column'>
                                 Chicks Gold
                             </span>
@@ -162,8 +162,8 @@ export const CondimentumConsectetur = () => {
                             </ul>
                         </div>
 
-                        <div className="container-footer-columns-list">
-                            <span className='generic-text title-second-column'>
+                        <div className="container-footer-columns-list special-container">
+                            <span className='generic-text  title-column'>
                                 Support
                             </span>
                             <ul>
@@ -172,8 +172,8 @@ export const CondimentumConsectetur = () => {
                             </ul>
                         </div>
 
-                        <div className="container-footer-columns-list">
-                            <span className='generic-text title-second-column'>
+                        <div className="container-footer-columns-list special-container">
+                            <span className='generic-text title-column'>
                                 Legal
                             </span>
                             <ul>
@@ -183,11 +183,23 @@ export const CondimentumConsectetur = () => {
                             </ul>
                         </div>
 
-                        <div className="container-footer-last-column">
-                            <img src={StartSVG} className='start-icon'/>
-                            <span className='generic-text-footer footer-title-reviews'>Trustpilot Reviews</span>
+                        <div className="container-footer-last-column special-container">
+                            <div>
+                                <img src={StartSVG} className='start-icon' />
+                            </div>
+
+                            <div>
+                                <span className='footer-title-reviews'>Trustpilot Reviews</span>
+                            </div>
+
                         </div>
 
+                    </div>
+
+                    <div className='container-all-rights-reserved'>
+                        <span className='label-all-rights-reserved'>
+                            © 2017 - 2020 Chicksgold.com. All Rights Reserved
+                        </span>
                     </div>
                 </div>
 
