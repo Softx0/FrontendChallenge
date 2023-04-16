@@ -55,9 +55,9 @@ export const Card = () => {
                 </div>
 
                 <div className="container-add">
-                    <span>ADD</span>
+                    <span className="generic-text add-text">ADD</span>
                     <div className="container-shooping-cart">
-                        <img src={ShoopingCart} className='filter' />
+                        <img src={ShoopingCart} className='icon-cart' />
                     </div>
                 </div>
             </div>
