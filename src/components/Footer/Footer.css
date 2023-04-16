@@ -33,7 +33,7 @@
 }
 
 .average-social-media-icon {
-    width: 80%;
+  width: 80%;
 }
 
 .container-footerdown {
@@ -92,6 +92,7 @@
   display: flex;
   align-items: center;
   flex-direction: row;
+  gap: 5%;
 }
 
 .footer-company-logo {
@@ -110,8 +111,8 @@
   margin-bottom: 18%;
 }
 
-.start-icon {  
-  width: 76%;
+.start-icon {
+  width: 36%;
 }
 
 .footer-title-reviews {
