@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-.condimentumConsectetur-background-container{
+.condimentumConsectetur-background-container {
   /* width: 100%; */
 }
 
@@ -108,43 +108,41 @@ body {
 
 /**/
 
-.container-footer{
+.container-footer {
   /* background-color: red; */
 }
 
-.container-icons{
+.container-icons {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   background-color: #2b2c3b;
-  padding: 2% 2% 2% 18%;
+  padding: 1% 17% 0.8% 17%;
 }
 
-.container-social-media-icons{
+.container-social-media-icons {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #303141;
-  padding: 2% 2% 2% 18%;
 }
 
-.container-visa-icon{
+.container-visa-icon {
   margin-right: 1%;
 }
 
-.container-mastercard-icon{
+.container-mastercard-icon {
   margin-right: 1%;
 }
 
-.container-amex-icon{
+.container-amex-icon {
   margin-right: 1%;
 }
 
-.container-skrill-icon{
+.container-skrill-icon {
   margin-right: 1%;
 }
 
-.container-crypto-icon{
+.container-crypto-icon {
   margin-right: 1%;
 }
 
@@ -170,19 +168,117 @@ body {
 
 .generic-text-footer {
   font-family: Roboto;
-  sans-serif: undefined;
-  font-size: 1rem;
   color: #bbbcc0;
 }
 
-.container-facebook-icon{
-  margin-right: 0.8%;
+.container-facebook-icon {
+  margin-right: 0.1%;
 }
 
-.container-instagram-icon{
-  margin-right: 0.8%;
+.container-instagram-icon {
+  margin-right: 0.1%;
 }
 
-.container-twitter-icon{
-  margin-right: 0.8%;
+.container-twitter-icon {
+  margin-right: 0.1%;
+}
+
+.facebook-icon {
+  width: 80%;
+}
+
+.instagram-icon {
+  width: 80%;
+}
+
+.twitter-icon {
+  width: 80%;
+}
+
+.discord-icon {
+  width: 80%;
+}
+
+.container-footerdown {
+  background-color: #303141;
+  padding: 2% 17% 2% 17%;
+}
+
+.separator-line {
+  height: 1px;
+  background-color: #4c6085;
+  border: none;
+  margin-top: 2.5%;
+}
+
+.container-footer-columns {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8%;
+  margin-top: 2.6%;
+  padding: 0;
+}
+
+.container-footer-columns-list {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.container-footer-columns-list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  color: #9a9ba4;
+  flex-direction: column;
+  align-items: start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container-footer-columns-list li {
+  font-size: small;
+  font-family: Roboto;
+}
+
+.container-footer-last-column {
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4%;
+}
+
+.footer-company-logo {
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.footer-email {
+  color: #d6d7dd;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.title-column {
+  color: #fafcff;
+  margin-bottom: 18%;
+}
+
+.start-icon {
+  width: 36%;
+}
+
+.footer-title-reviews {
+  color: #d6d7dd;
+  font-size: 0.9rem;
+  font-family: Roboto;
 }

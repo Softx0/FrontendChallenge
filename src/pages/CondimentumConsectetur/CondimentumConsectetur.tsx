@@ -19,6 +19,10 @@ import InstagramSVG from '../../assets/icons/instagram.svg';
 import TwitterSVG from '../../assets/icons/twitter.svg';
 import DiscordSVG from '../../assets/icons/discord.svg';
 
+import StartSVG from '../../assets/icons/trust-pilot-5-star.svg';
+
+import ChicksGoldLogo from "../../assets/icons/chicks-logo-large.svg";
+
 export const CondimentumConsectetur = () => {
     return (
         <>
@@ -116,25 +120,77 @@ export const CondimentumConsectetur = () => {
                     </div>
                 </div>
 
-                <div className='container-social-media-icons'>
-                    <div className='container-facebook-icon'>
-                        <img src={FacebookSVG} className='facebook-icon' />
+                <div className='container-footerdown'>
+                    <div className='container-social-media-icons'>
+                        <div className='container-facebook-icon'>
+                            <img src={FacebookSVG} className='facebook-icon' />
+                        </div>
+
+                        <div className='container-instagram-icon'>
+                            <img src={InstagramSVG} className='instagram-icon' />
+                        </div>
+
+                        <div className='container-twitter-icon'>
+                            <img src={TwitterSVG} className='twitter-icon' />
+                        </div>
+
+                        <div className='container-discord-icon'>
+                            <img src={DiscordSVG} className='discord-icon' />
+                        </div>
+
+
                     </div>
 
-                    <div className='container-instagram-icon'>
-                        <img src={InstagramSVG} className='instagram-icon' />
+                    <hr className='separator-line' />
+
+                    <div className='container-footer-columns'>
+
+                        <div className='container-footer-columns-list'>
+                            <img src={ChicksGoldLogo} className='footer-company-logo' />
+                            <span className='generic-text-footer footer-email'>support@chicksgold.com</span>
+                        </div>
+
+                        <div className="container-footer-columns-list">
+                            <span className='generic-text title-column'>
+                                Chicks Gold
+                            </span>
+                            <ul>
+                                <li>Games</li>
+                                <li>About Us</li>
+                                <li>Blog</li>
+                                <li>Sitemap</li>
+                            </ul>
+                        </div>
+
+                        <div className="container-footer-columns-list">
+                            <span className='generic-text title-second-column'>
+                                Support
+                            </span>
+                            <ul>
+                                <li>Contact Us</li>
+                                <li>FAQ</li>
+                            </ul>
+                        </div>
+
+                        <div className="container-footer-columns-list">
+                            <span className='generic-text title-second-column'>
+                                Legal
+                            </span>
+                            <ul>
+                                <li>Privacy Policy</li>
+                                <li>Terms of Service</li>
+                                <li>Copyright Policy</li>
+                            </ul>
+                        </div>
+
+                        <div className="container-footer-last-column">
+                            <img src={StartSVG} className='start-icon'/>
+                            <span className='generic-text-footer footer-title-reviews'>Trustpilot Reviews</span>
+                        </div>
+
                     </div>
-
-                    <div className='container-twitter-icon'>
-                        <img src={TwitterSVG} className='twitter-icon' />
-                    </div>
-
-                    <div className='container-discord-icon'>
-                        <img src={DiscordSVG} className='discord-icon' />
-                    </div>
-
-
                 </div>
+
             </footer>
         </>
     )
