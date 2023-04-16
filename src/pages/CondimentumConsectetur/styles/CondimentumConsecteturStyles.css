@@ -1,9 +1,7 @@
-.condimentumConsectetur-background-container {
+/* *{ border: 1px solid red; } */
+
+body {
   background-image: url("../../../assets/images/default.webp");
-  background-size: "cover";
-  height: fit-content;
-  margin: -8px;
-  background-repeat: no-repeat;
 }
 
 .title-condimentum-consectetur-container {
@@ -28,7 +26,6 @@
   margin-top: 2%;
   margin-right: 2%;
   padding-bottom: 20px;
-  height: 100%;
   background-color: #303141;
   border: 2px solid #3e465c;
 }
@@ -42,6 +39,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .number-items {
   color: #ffffff;
 }
@@ -68,8 +66,7 @@
 }
 
 .filter {
-  height: 20px;
-  width: 20px;
+  width: 30%;
 }
 
 /* card styles */

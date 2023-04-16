@@ -12,7 +12,7 @@ export const CondimentumConsectetur = () => {
         <div className="condimentumConsectetur-background-container">
             <NavBar />
 
-            <div className='container'>
+            {/* <div className='container'> */}
 
                 <div className=''>
                     <div className='title-condimentum-consectetur-container'>
@@ -57,7 +57,7 @@ export const CondimentumConsectetur = () => {
 
 
                 </div>
-            </div>
+            {/* </div> */}
         </div>
     )
 }
