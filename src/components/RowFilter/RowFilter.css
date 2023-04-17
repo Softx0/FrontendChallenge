@@ -10,10 +10,10 @@
 
   background-color: rgba(61, 79, 136, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border: 1px solid rgba(61, 79, 136, 0.26);
 
+  /* z-index: 00; */
   align-items: center;
   width: 50%;
 }
@@ -83,6 +83,7 @@
 .container-sword-icon {
   margin-right: 1rem;
 }
+
 .container-master-bag {
   display: flex;
   flex-direction: row;
@@ -93,7 +94,6 @@
   padding: 1% 1% 1% 1%;
   background: rgba(61, 79, 136, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border: 1px solid rgba(61, 79, 136, 0.26);
 }
