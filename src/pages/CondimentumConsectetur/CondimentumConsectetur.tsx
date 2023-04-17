@@ -36,7 +36,7 @@ export const CondimentumConsectetur = () => {
                                 </div>
 
                                 <div className='sort-filter'>
-                                    <div className='container-dropdown container-sortby'>
+                                    <div className='container-dropdown-sort container-sortby'>
                                         <div className='container-adjust'>
                                             <img src={FilterSVG} className='filter' />
                                             <div className='dropdown-span-column' >
@@ -75,8 +75,6 @@ export const CondimentumConsectetur = () => {
 
                     </div>
                 </div>
-
-
             </div>
 
             <Footer />

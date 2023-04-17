@@ -1,98 +1,117 @@
+.row-filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
 .container-dropdown {
-    padding: 16px;
-    background: rgba(65, 70, 93, 0.4);
-    border-radius: 3px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
-    border: 1px solid rgba(65, 70, 93, 0.05);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .container-select-game {
-    width: 26%;
-  }
-  
-  .sword-title-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .sword {
-    height: 20px;
-    width: 20px;
-  }
-  
-  .search {
-    height: 20px;
-    width: 20px;
-  }
-  
-  .title-dropdown {
-    padding: 8;
-    color: #e0e0e0;
-    font-size: 16px;
-    margin-left: 12px;
-  }
-  
-  .accordian-arrow {
-    height: 12px;
-    width: 12px;
-  }
-  
-  .row-filters {
-    display: flex;
-    margin: 0 2rem 0 2rem;
-  }
-  
-  .container-search-width {
-    margin-left: 2%;
-    width: 30%;
-  }
-  
-  .container-search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .container-bag {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
-  .container-item-bag {
-    width: 10%;
-  }
-  
-  .container-price {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-  }
-  
-  .title-price {
-    font-family: Roboto;
-    sans-serif: undefined;
-    font-size: 11px;
-    color: #ffffff;
-  }
-  
-  .title-all {
-    font-family: Roboto;
-    sans-serif: undefined;
-    font-size: 17px;
-    color: #ffffff;
-  }
-  
-  .accordian-arrow-price {
-    display: flex;
-    height: 12px;
-    width: 12px;
-  }
-  
+  display: flex;
+  padding: 1% 1% 1% 1%;
+
+  background: rgba(61, 79, 136, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(61, 79, 136, 0.26);
+
+  justify-content: center;
+  align-items: center;
+}
+
+.container-select-a-game {
+  margin-right: 2%;
+}
+
+.sword-title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
+}
+
+.sword {
+  width: 5%;
+}
+
+.title-dropdown {
+  font-family: Roboto;
+  color: #fefefe;
+  font-size: 0.9rem;
+}
+
+.label-search {
+  font-family: Roboto;
+  color: #8a8c9b;
+  font-size: 0.9rem;
+}
+
+.accordian-arrow {
+  width: 3%;
+}
+
+.search-icon {
+  width: 3.6%;
+}
+
+.container-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1%;
+}
+
+.container-master-bag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1% 1% 1% 1%;
+  background: rgba(61, 79, 136, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(61, 79, 136, 0.26);
+}
+
+.container-bag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18%;
+}
+
+.container-item-bag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-price {
+  font-family: Roboto;
+  font-size: 0.5rem;
+  color: #bababf;
+}
+
+.title-all {
+  font-family: Roboto;
+  font-size: 0.7rem;
+  color: #ffffff;
+}
+
+.container-arrow-down {
+  display: flex;
+  align-items: center;
+}
+
+.accordian-arrow-price {
+  width: 100%;
+}

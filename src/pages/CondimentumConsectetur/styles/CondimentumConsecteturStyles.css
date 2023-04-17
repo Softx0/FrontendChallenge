@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid red; */
+  /* border: 1px solid red !important; */
 }
 
 body {
@@ -62,7 +62,7 @@ body {
   color: #ffffff;
 }
 
-.container-dropdown {
+.container-dropdown-sort {
   background: rgba(53, 58, 78, 0.5);
   border-radius: 2%;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -71,6 +71,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 6% 3% 6% 3%;
 }
 
 .container-sortby {
