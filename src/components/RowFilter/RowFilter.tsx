@@ -9,50 +9,67 @@ import './RowFilter.css';
 export const RowFilter = () => {
     return (
         <div className='row-filters'>
-            <div className='container-dropdown container-select-a-game'>
-                <div className='sword-title-container' >
-                    <img src={SwordSVG} className='sword' />
-                    <span className='title-dropdown'>Select a game</span>
-                </div>
 
-                <img src={AccordianArrowSVG} className='accordian-arrow' />
+            <div className='container-dropdown filter-select-a-game'>
+                <div className='container-select-a-game' >
+                    <div className='container-sword-icon'>
+                        <img src={SwordSVG} className='search-icon' />
+                    </div>
+
+                    <div>
+                        <span className='title-dropdown'>Select a game</span>
+                    </div>
+                </div>
+                <div>
+                    <img src={AccordianArrowSVG} className='accordian-arrow-price' />
+                </div>
             </div>
 
-            <div className='container-dropdown'>
+            <div className='container-dropdown filter-search'>
                 <div className='container-search' >
-                    <img src={SearchSVG} className='search-icon' />
-                    <span className='label-search'>Search</span>
+                    <div className='container-search-icon'>
+                        <img src={SearchSVG} className='search-icon' />
+                    </div>
+
+                    <div>
+                        <span className='label-search'>Search</span>
+                    </div>
+
+
                 </div>
             </div>
 
             <div className='container-master-bag'>
                 <div className='container-item-bag'>
                     <div className='container-bag'>
-                        <img src={BagSVG} className='search' />
+                        <img src={BagSVG} className='bag-icon' />
                         <div className='container-price' >
                             <span className='title-price'>Price</span>
                             <span className='title-all'>All</span>
                         </div>
                     </div>
                 </div>
-                
-                <div className='container-arrow-down'>
+
+                <div>
                     <img src={AccordianArrowSVG} className='accordian-arrow-price' />
                 </div>
             </div>
 
-            {/*
-            <div className='container-dropdown container-item-bag'>
-
-                <div className=' container-bag'>
-                    <img src={FeatherSVG} className='search' />
-                    <div className='container-price' >
-                        <span className='title-price'>Item Type</span>
-                        <span className='title-all'>All</span>
+            <div className='container-master-bag'>
+                <div className='container-item-bag'>
+                    <div className='container-bag'>
+                        <img src={FeatherSVG} className='bag-icon' />
+                        <div className='container-price' >
+                            <span className='title-price'>Item Type</span>
+                            <span className='title-all'>All</span>
+                        </div>
                     </div>
                 </div>
-                <img src={AccordianArrowSVG} className='accordian-arrow-price' />
-            </div> */}
+
+                <div>
+                    <img src={AccordianArrowSVG} className='accordian-arrow-price' />
+                </div>
+            </div>
         </div>
     )
 }

@@ -1,7 +1,6 @@
 .row-filters {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -9,32 +8,29 @@
   display: flex;
   padding: 1% 1% 1% 1%;
 
-  background: rgba(61, 79, 136, 0.1);
+  background-color: rgba(61, 79, 136, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border: 1px solid rgba(61, 79, 136, 0.26);
 
-  justify-content: center;
   align-items: center;
-}
-
-.container-select-a-game {
-  margin-right: 2%;
+  width: 50%;
 }
 
 .sword-title-container {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  gap: 2%;
 }
 
-.sword {
-  width: 5%;
+.container-label-select-game {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
 }
 
 .title-dropdown {
+  display: flex;
   font-family: Roboto;
   color: #fefefe;
   font-size: 0.9rem;
@@ -47,26 +43,52 @@
 }
 
 .accordian-arrow {
-  width: 3%;
+  width: 0.5rem;
+}
+
+.sword-icon {
+  width: 18px;
 }
 
 .search-icon {
-  width: 3.6%;
+  width: 18px;
+}
+
+.filter-select-a-game {
+  margin-right: 2%;
+  width: 20%;
+}
+
+.filter-search {
+  width: 45%;
+}
+
+.container-select-a-game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
 }
 
 .container-search {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
-  gap: 1%;
 }
 
+.container-search-icon {
+  margin-right: 10px;
+}
+
+.container-sword-icon {
+  margin-right: 1rem;
+}
 .container-master-bag {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 10%;
 
   padding: 1% 1% 1% 1%;
   background: rgba(61, 79, 136, 0.1);
@@ -82,6 +104,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 18%;
+  width: max-content;
 }
 
 .container-item-bag {
@@ -95,10 +118,28 @@
   flex-direction: column;
 }
 
+.container-feather-icon {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.feather-icon {
+  width: 100%;
+}
+
+.inner-container-item-type {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* margin-left: 10px; */
+}
+
 .title-price {
   font-family: Roboto;
   font-size: 0.5rem;
   color: #bababf;
+  width: max-content;
 }
 
 .title-all {
@@ -107,11 +148,17 @@
   color: #ffffff;
 }
 
-.container-arrow-down {
+.accordian-arrow-price {
+  width: 100%;
+}
+
+.container-item-type {
   display: flex;
   align-items: center;
 }
 
-.accordian-arrow-price {
-  width: 100%;
+.title-item-type {
+  font-family: Roboto;
+  font-size: 0.5rem;
+  color: #bababf;
 }
