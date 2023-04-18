@@ -138,14 +138,12 @@
 }
 
 @media screen and (max-width: 1099px) {
-
-  .container-items-navbar{
+  .container-items-navbar {
     display: none;
   }
 
   .container-items-navbar.expanded {
     all: unset;
-   /*  display: none; */
   }
 
   .container-items-navbar.expanded {
@@ -183,6 +181,10 @@
 
   .hamburger {
     display: block;
+  }
+
+  .hamburger:hover {
+    background-color: #394056;
   }
 
   .container-currency-cart .container-items-navbar {

@@ -8,9 +8,7 @@ import { useState } from "react";
 export const NavBar = () => {
 
     const [isNavExpanded, setIsNavExpanded] = useState(false);
-    const handleHamburguerButton = () => {
-        setIsNavExpanded(!isNavExpanded);
-    }
+    const handleHamburguerButton = () => setIsNavExpanded(!isNavExpanded);
 
     return (
         <div>
@@ -70,7 +68,7 @@ export const NavBar = () => {
                                 </ul>
                             </div>
 
-                            <div className="">
+                            <div>
                                 <ul>
                                     <li>
                                         <img src={ShoopingCartSVG} className="shooping-cart" />
@@ -87,12 +85,7 @@ export const NavBar = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
-
             </nav>
         </div>
     )

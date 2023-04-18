@@ -7,13 +7,10 @@
 .container-dropdown {
   display: flex;
   padding: 1% 1% 1% 1%;
-
   background-color: rgba(61, 79, 136, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   -webkit-backdrop-filter: blur(0px);
   border: 1px solid rgba(61, 79, 136, 0.26);
-
-  /* z-index: 00; */
   align-items: center;
   width: 50%;
 }
@@ -77,7 +74,7 @@
 }
 
 .container-search-icon {
-  margin-right: 10px;
+  margin-right: 0.6rem;
 }
 
 .container-sword-icon {
@@ -91,7 +88,7 @@
   align-items: center;
   width: 10%;
 
-  padding: 1% 1% 1% 1%;
+  padding: 1% 1.2% 1% 1%;
   background: rgba(61, 79, 136, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   -webkit-backdrop-filter: blur(0px);
@@ -132,7 +129,6 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  /* margin-left: 10px; */
 }
 
 .title-price {
